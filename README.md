@@ -1,18 +1,20 @@
 
 <div>
   <h1 align="center"><img src="https://img.icons8.com/nolan/32/disney-plus.png"/>  Disney+ Clone</h1>
+  <h4 align="center">Movies and series web app developed using NextJS.</h4>
+  <h5 align="center">Hosted Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/</h5>
 </div>
 
 
 
 
 
-#### Movies and series web app developed using NextJS.
 
 
-Hosted Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/
 
-# Preview
+
+
+## Preview
 ### Login
 ![image](https://user-images.githubusercontent.com/56268987/167251361-68264c08-a924-4e6c-9e4a-d3c148a5d2f6.png)
 
@@ -36,6 +38,6 @@ Hosted Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/
     5. Server Side Rendering
 
 
-# Run Locally
+## Run Locally
     1. `npm i`
     2. `npm run dev`
