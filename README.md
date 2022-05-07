@@ -38,4 +38,4 @@ Hosted Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/
 
 # Run Locally
     1. `npm i`
-    2. `npm start`
+    2. `npm run dev`
