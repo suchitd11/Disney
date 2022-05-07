@@ -30,11 +30,11 @@ function Hero() {
           />
           <button
             className="bg-blue-600 uppercase text-xl tracking-wide font-extrabold py-4 px-6 w-full rounded hover:bg-[#0485ee]"
-            onClick={() =>
-              router.push(
-                "http://localhost:3000/api/auth/signin?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2F"
-              )
-            }
+            // onClick={() =>
+            //   router.push(
+            //     "http://localhost:3000/api/auth/signin?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2F"
+            //   )
+            // }
           >
             Get all there
           </button>
