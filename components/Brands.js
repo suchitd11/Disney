@@ -12,9 +12,10 @@ function Brands() {
           alt="disney"
         />
         <video
-          autoPlay
+          autoPlay = {true}
           loop
           playsInline
+          width={300}
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/disney.mp4" type="video/mp4" />
@@ -31,6 +32,7 @@ function Brands() {
           autoPlay
           loop
           playsInline
+          width={300}
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/pixar.mp4" type="video/mp4" />
@@ -47,6 +49,7 @@ function Brands() {
           autoPlay
           loop
           playsInline
+          width={300}
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/marvel.mp4" type="video/mp4" />
@@ -63,6 +66,7 @@ function Brands() {
           autoPlay
           loop
           playsInline
+          width={300}
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/star-wars.mp4" type="video/mp4" />
@@ -79,6 +83,7 @@ function Brands() {
           autoPlay
           loop
           playsInline
+          width={300}
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/national-geographic.mp4" type="video/mp4" />
