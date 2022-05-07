@@ -1,37 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-![image](https://user-images.githubusercontent.com/56268987/167251194-a7058b64-22ef-4616-bf37-4db06844b5a6.png)
+<div>
+  <h1 align="center"><img src="https://img.icons8.com/nolan/32/disney-plus.png"/>  Disney+ Clone</h1>
+</div>
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Movies and series web app developed using NextJS.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Hosted Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Preview
+### Login
+![image](https://user-images.githubusercontent.com/56268987/167251361-68264c08-a924-4e6c-9e4a-d3c148a5d2f6.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Homescreen
+![image](https://user-images.githubusercontent.com/56268987/167251326-84cbe804-e28d-4453-8178-1b0e9a13d720.png)
 
-## Deploy on Vercel
+### Movie Details Screen
+![image](https://user-images.githubusercontent.com/56268987/167251411-b9d8b684-7b7e-474c-8091-7fd130ee059c.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Series Details Screen
+![image](https://user-images.githubusercontent.com/56268987/167251460-1325491a-1136-4581-bbea-d2a0678179c1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Technologies and Functionalities Used 
+
+    1. NextJS
+    2. Tailwind CSS
+    3. Firebase
+    4. TMDB API
+    5. Server Side Rendering
+
+
+# Run Locally
+    1. `npm i`
+    2. `npm start`
