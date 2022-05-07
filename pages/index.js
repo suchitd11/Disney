@@ -23,7 +23,7 @@ export default function Home({
     <div className={styles.container}>
       <Head>
         <title>Disney+</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
       {!session ? (

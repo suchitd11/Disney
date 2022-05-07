@@ -30,7 +30,7 @@ function Movie({ result }) {
     <div className="relative">
       <Head>
         <title>{result.title || result.original_name}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
       {!session ? (
@@ -90,7 +90,7 @@ function Movie({ result }) {
             <p className="text-xs md:text-sm">
               {result.release_date || result.first_air_date} •{" "}
               {Math.floor(result.runtime / 60)}h {result.runtime % 60}m •{" "}
-              {result.genres.map((genre) => genre.name + " ")}{" "}
+              {result.genres.map((genre) => genre.name + " ")}{" "} • {result.vote_average}/10
             </p>
             <h4 className="text-sm md:text-lg max-w-4xl">{result.overview}</h4>
           </div>
