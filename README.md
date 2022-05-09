@@ -20,7 +20,7 @@
 
 
 
-## Technologies and Functionalities Used 
+## Technologies & Functionalities Used 
 
     1. NextJS
     2. Tailwind CSS
