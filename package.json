@@ -13,7 +13,7 @@
     "@next-auth/firebase-adapter": "0.0.2-canary.207",
     "firebase": "8.7.1",
     "next": "12.1.6",
-    "next-auth": "3.29.3",
+    "next-auth": "3.29.5",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-player": "^2.10.0",
