@@ -2,7 +2,6 @@
 <div>
   <h1 align="center"><img src="https://img.icons8.com/nolan/32/disney-plus.png"/>  Disney+ </h1>
   <h4 align="center">Movies and series web app developed using NextJS.</h4>
-  <h5 align="center">Deployed Link : https://disney-clone-ndmiypj8n-suchitd11.vercel.app/</h5>
 </div>
 
 ## Preview
