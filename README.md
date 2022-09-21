@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<div>
+  <h1 align="center"><img src="https://img.icons8.com/nolan/32/disney-plus.png"/>  Disney+ </h1>
+  <h4 align="center">Movies and series web app developed using NextJS.</h4>
+</div>
 
-First, run the development server:
+## Preview
+### Login
+![image](https://user-images.githubusercontent.com/56268987/167251361-68264c08-a924-4e6c-9e4a-d3c148a5d2f6.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Homescreen
+![image](https://user-images.githubusercontent.com/56268987/167251326-84cbe804-e28d-4453-8178-1b0e9a13d720.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Movie Details Screen
+![image](https://user-images.githubusercontent.com/56268987/167251411-b9d8b684-7b7e-474c-8091-7fd130ee059c.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Series Details Screen
+![image](https://user-images.githubusercontent.com/56268987/167251460-1325491a-1136-4581-bbea-d2a0678179c1.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Technologies & Functionalities Used 
 
-To learn more about Next.js, take a look at the following resources:
+    1. NextJS
+    2. Tailwind CSS
+    3. Firebase
+    4. TMDB API
+    5. Server Side Rendering
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Run Locally
+    1. `npm i`
+    2. `npm run dev`
