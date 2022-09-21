@@ -53,7 +53,12 @@ function Header() {
         Login
     </button>
     ):(
-        <img className='ml-auto h-12 w-12 rounded-full object-cover  cursor-pointer' src={session.user.image} onClick={signOut} alt="profile"/>
+        <>
+        <img className='ml-auto h-12 w-12 rounded-full object-cover' src={session.user.image} alt="profile"/>
+        <button className='ml-4 uppercase border px-4 rounded py-1.5 tracking-wide hover:bg-white hover:text-black transition duration-200' onClick={signOut}>
+        Logout
+        </button>
+        </>
     )}
     </header>
   )
