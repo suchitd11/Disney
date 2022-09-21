@@ -23,7 +23,7 @@ export default function Home({
     <div className={styles.container}>
       <Head>
         <title>Disney+</title>
-        <meta name="google-site-verification" content="wy4UnC5e4QGY8_g2pJYzRf0R49ZGEXvoHoMOnyOy2Cw" />
+        <meta name="google-site-verification" content="VqwDclJth8roz78CORjsqBenbsbaAOXtV5T_qPcSzQ4" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
