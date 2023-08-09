@@ -14,4 +14,4 @@ function MoviesCollection({results, title}) {
   )
 }
 
-export default MoviesCollection
+export default MoviesCollection;

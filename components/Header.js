@@ -18,7 +18,7 @@ function Header() {
     <header className='sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px] '>
     <Image className='cursor-pointer' src="/images/logo.svg" width={80} height={80} onClick={() => router.push('/')} alt="logo"/>
 
-    {session && (
+    {(
 
     <div className='hidden ml-10 md:flex items-center space-x-6'>
     <a className='header-link group'>
@@ -47,19 +47,19 @@ function Header() {
         </a>
     </div>
     )}
-    {!session ? (
+    {/* {!session ? (
 
     <button className='ml-auto uppercase border px-4 rounded py-1.5 tracking-wide hover:bg-white hover:text-black transition duration-200' onClick={signIn}>
         Login
     </button>
     ):(
         <>
-        <img className='ml-auto h-12 w-12 rounded-full object-cover' src={session.user.image} alt="profile"/>
-        <button className='ml-4 uppercase border px-4 rounded py-1.5 tracking-wide hover:bg-white hover:text-black transition duration-200' onClick={signOut}>
+        <img className='ml-auto h-12 w-12 rounded-full object-cover' src={session.user.image} onClick={signOut} alt="profile"/>
+        <button className='ml-auto uppercase border px-4 rounded py-1.5 tracking-wide hover:bg-white hover:text-black transition duration-200' onClick={signOut}>
         Logout
         </button>
         </>
-    )}
+    )} */}
     </header>
   )
 }

@@ -16,11 +16,11 @@ function Movie({ result }) {
   const router = useRouter();
   const [showPlayer, setShowPlayer] = useState(false);
 
-  useEffect(() => {
-    if (!session) {
-      router.push("/");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (!session) {
+  //     router.push("/");
+  //   }
+  // }, []);
 
   const index = result.videos.results.findIndex(
     (element) => element.type === "Trailer"
@@ -33,9 +33,7 @@ function Movie({ result }) {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
-      {!session ? (
-        <Hero />
-      ) : (
+      {(
         <section className="relative z-50">
           <div className="relative min-h-[calc(100vh-72px)]">
             <Image
